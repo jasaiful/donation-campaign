@@ -13,7 +13,7 @@
     {
         "id": 2,
         "picture": "https://i.ibb.co/rHWdM66/Education.png",
-        "title": "Good education",
+        "title": "Good Education",
         "category": "Education",
         "category_bg": "#FF444A33",
         "card_bg": "#FF444A26",
@@ -45,28 +45,17 @@
     },
     {
         "id": 5,
-        "picture": "https://i.ibb.co/tcR65px/Health.png",
-        "title": "Clean water for children",
-        "category": "Health",
-        "category_bg": "#0052FF33",
-        "card_bg": "#0052FF26",
-        "text_btn_color": "#0052FF",
-        "description": "Invest in your well-being and the well-being of others. This health product promotes a healthy lifestyle, and a portion of the proceeds goes towards supporting healthcare initiatives in underserved areas.",
-        "price": 90.00
+        "picture": "https://i.ibb.co/2tYgkmY/Food.png",
+        "title": "Better Fruits for Everyone",
+        "category": "Food",
+        "category_bg": "#F8714733",
+        "card_bg": "#F8714726",
+        "text_btn_color": "#F87147",
+        "description": "Satisfy your taste buds and hunger for change. Every purchase helps feed the hungry and combat food insecurity. Enjoy delicious flavors while making a positive impact.",
+        "price": 50.00
     },
     {
         "id": 6,
-        "picture": "https://i.ibb.co/rHWdM66/Education.png",
-        "title": "Good education",
-        "category": "Education",
-        "category_bg": "#FF444A33",
-        "card_bg": "#FF444A26",
-        "text_btn_color": "#FF444A",
-        "description": "Fuel a love for learning and philanthropy. Your purchase contributes to educational outreach programs, ensuring that knowledge reaches every corner of the world.",
-        "price": 200.00
-    },
-    {
-        "id": 7,
         "picture": "https://i.ibb.co/LxZpcSR/Clothing.png",
         "title": "Used Clothing Drive",
         "category": "Clothing",
@@ -77,15 +66,26 @@
         "price": 100.00
     },
     {
+        "id": 7,
+        "picture": "https://i.ibb.co/rHWdM66/Education.png",
+        "title": "Good Education",
+        "category": "Education",
+        "category_bg": "#FF444A33",
+        "card_bg": "#FF444A26",
+        "text_btn_color": "#FF444A",
+        "description": "Fuel a love for learning and philanthropy. Your purchase contributes to educational outreach programs, ensuring that knowledge reaches every corner of the world.",
+        "price": 200.00
+    },
+    {
         "id": 8,
-        "picture": "https://i.ibb.co/2tYgkmY/Food.png",
-        "title": "Better Fruits for Everyone",
-        "category": "Food",
-        "category_bg": "#F8714733",
-        "card_bg": "#F8714726",
-        "text_btn_color": "#F87147",
-        "description": "Satisfy your taste buds and hunger for change. Every purchase helps feed the hungry and combat food insecurity. Enjoy delicious flavors while making a positive impact.",
-        "price": 50.00
+        "picture": "https://i.ibb.co/tcR65px/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg": "#0052FF33",
+        "card_bg": "#0052FF26",
+        "text_btn_color": "#0052FF",
+        "description": "Invest in your well-being and the well-being of others. This health product promotes a healthy lifestyle, and a portion of the proceeds goes towards supporting healthcare initiatives in underserved areas.",
+        "price": 90.00
     },
     {
         "id": 9,
@@ -101,7 +101,7 @@
     {
         "id": 10,
         "picture": "https://i.ibb.co/rHWdM66/Education.png",
-        "title": "Good education",
+        "title": "Good Education",
         "category": "Education",
         "category_bg": "#FF444A33",
         "card_bg": "#FF444A26",

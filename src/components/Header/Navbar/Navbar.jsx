@@ -9,7 +9,7 @@ const Navbar = () => {
                     <img src="https://i.ibb.co/tB9JnFq/Logo.png" alt="logo" />
                 </div>
                 <div className="flex-none">
-                    <ul className="menu menu-horizontal px-1 text-base">
+                    <ul className="menu menu-horizontal px-1">
                         <li><NavLink
                             to="/"
                             className={({ isActive, isPending }) =>
