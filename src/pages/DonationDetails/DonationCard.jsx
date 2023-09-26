@@ -1,3 +1,4 @@
+import swal from "sweetalert";
 
 
 const DonationCard = ({ donation }) => {
@@ -13,14 +14,13 @@ const DonationCard = ({ donation }) => {
         if (!donateCard) {
             addedDonateCard.push(donation)
             localStorage.setItem('donate', JSON.stringify(addedDonateCard))
-
-            // alert should be added
+            swal("Thank you!", "Your donation has touched our hearts and will make a significant impact on our fund!", "success");
         }
         else {
             addedDonateCard.push(...donateCard, donation)
             localStorage.setItem('donate', JSON.stringify(addedDonateCard))
+            swal("Thank you!", "Your donation has touched our hearts and will make a significant impact on our fund!", "success");
         }
-
         
     }
 
