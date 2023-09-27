@@ -17,6 +17,7 @@ const ReceivedDonation = ({ donation }) => {
                     </div>
                 </div>
             </div>
+            
         </div>
     );
 };

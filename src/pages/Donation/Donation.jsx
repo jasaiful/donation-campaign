@@ -6,7 +6,8 @@ import ReceivedDonation from "./ReceivedDonation";
 const Donation = () => {
 
     const [donation, setDonation] = useState([]);
-    const [notFound, setNotFound] = useState(false)
+    const [notFound, setNotFound] = useState(false);
+    const [isSeeAll, setIsSeeAll] = useState(false);
 
     useEffect(() => {
 
@@ -25,6 +26,7 @@ const Donation = () => {
 
 
 
+
     return (
         <div>
             {
@@ -32,10 +34,18 @@ const Donation = () => {
                     {notFound} </p> :
                     <div className="grid grid-cols-1 lg:grid-cols-2">
                         {
-                            donation.map(donation => <ReceivedDonation key={donation.id} donation={donation} > </ReceivedDonation>)
+                            isSeeAll ? donation.map(donation => <ReceivedDonation key={donation.id} donation={donation} > </ReceivedDonation>)
+
+                                : donation.slice(0, 4).map(donation => <ReceivedDonation key={donation.id} donation={donation} > </ReceivedDonation>)
+
                         }
 
                     </div>
+            }
+            {
+                donation.length > 4 && <button onClick={() => setIsSeeAll(!isSeeAll)} className="btn btn-secondary block mx-auto">
+                    {isSeeAll ? "See Less" : "See All"}
+                </button>
             }
         </div>
     );
