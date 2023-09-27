@@ -23,15 +23,14 @@ const DonationCard = ({ donation }) => {
         }
         
     }
-
     return (
         <div>
             <div className="relative flex w-full h-screen flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
-                <div className="relative mx-4 mt-4 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
+                <div className="relative mx-4 mt-4 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border shadow-lg shadow-blue-gray-500/40">
                     <img className="w-full" src={picture} alt="" />
-                    <div className="to-bg-black-30 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60"></div>
+                    
                 </div>
-                <button onClick={handleAddToDonation} className="btn btn-secondary">Donate ${price}</button>
+                <div className="absolute ml-12 pt-28 mt-96"><button onClick={handleAddToDonation} className="btn btn-secondary inline-block">Donate ${price}</button></div>
                 <div className="p-6">
                     <div className="mb-5">
                         <h2 className="text-4xl font-bold"> {title}</h2>
@@ -45,4 +44,4 @@ const DonationCard = ({ donation }) => {
     );
 };
 
-export default DonationCard;
+export default DonationCard; 

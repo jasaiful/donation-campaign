@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const DonationsCard = ({ donation }) => {
 
-    const { picture, title, category, category_bg, card_bg, text_btn_color, description } = donation || {};
+    const { picture, title, category } = donation || {};
 
     return (
         <div>
