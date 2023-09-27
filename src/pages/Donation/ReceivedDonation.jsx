@@ -2,7 +2,7 @@
 
 const ReceivedDonation = ({ donation }) => {
 
-    const { picture, title, category, price, category_bg, card_bg, text_btn_color, description } = donation || {};
+    const { picture, title, category, price, category_bg, card_bg, text_btn_color } = donation || {};
 
     return (
         <div>
